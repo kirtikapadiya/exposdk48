@@ -1,0 +1,16 @@
+{
+  "cli": {
+    "version": ">= 0.48.0"
+  },
+  "build": {
+     "production":{
+      "channel": "dev",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios":{
+        "simulator": true
+      }
+    }
+  }
+}
